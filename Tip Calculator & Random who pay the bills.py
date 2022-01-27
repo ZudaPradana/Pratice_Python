@@ -7,3 +7,12 @@ convert_bill = round(convert_percentage * total_bill, 2)
 calc_pays = round((convert_bill + total_bill) / split_bill,2)
 print(f'Total bill: ${total_bill+convert_bill}')
 print(f'Each person should pay: ${calc_pays}')
+
+
+# CHALLANGE
+# random pay the bills
+split = makes string to list
+import random
+name = input('input the name who you want to pay the bills :  \n')
+split = name.split()
+print(f'{random.choice(split)} need to pay the bils')
