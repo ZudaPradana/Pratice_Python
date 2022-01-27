@@ -8,3 +8,17 @@ def prime(number):
     else:
         print('number prime')
 prime(numb)
+
+#or
+
+
+# Check prime number using looping
+numb = int(input('input your number to check: '))
+for i in range (numb):
+    i+=1
+    if i == 2 or i == 3:
+        print(f'{i} is prime')
+    elif i % 2 == 0 or i % 3 == 0:
+        print(f'{i} is not prime')
+    else:
+        print(f'{i} is prime')
